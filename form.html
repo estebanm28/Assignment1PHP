@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title> GymShark Data Entry </title>
+</head>
+<body>
+    <h1> GymShark Employees Data Entry</h1>
+    <header>
+        <div class="container2"> 
+            
+            <nav> 
+                <ul>
+                    <li><a href="form.html">GymShark Data Entry</a></li>
+                    <li><a href="employeeInfo.php">GymShark Data Show</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container"> 
+
+    <form action="employeeInfo.php" method="post">
+        
+        <label for="EmployeeID">Employee ID </label>
+        <input type="text" name="EmployeeID" id="EmployeeID" required placeholder="Insert the Employee ID"> 
+
+        <label for="EmployeeName">Employee Name</label>
+        <input type="text" name="EmployeeName" id="EmployeeName" required placeholder="Insert the Employee Name">
+        
+        <label for="EmployeeEmail">Employee Email</label>
+        <input type="text" name="EmployeeEmail" id="EmployeeEmail" required placeholder="Insert the Employee Email"> 
+
+        <button type="submit"> Add Employee information </button>
+
+    </form>
+    </div>
+</body>
+
+<footer>
+    <p>&copy; 2024 Johan Esteban Mora. All rights reserved.</p>
+</footer>
+</html>

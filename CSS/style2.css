@@ -1,0 +1,55 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../CSS/background2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: black; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+    text-align: center; /* Alineación del texto al centro */
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+}
+
+.container{
+
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../CSS/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: black;
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 20px; /* Añadido para espacio interno */
+    text-align: center;
+    margin: 20px auto; /* Centrar el formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadido para sombra */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(42, 42, 205);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: black; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+    text-align: center; /* Alineación del texto al centro */
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+h1, nav {
+    display: inline;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container2 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
